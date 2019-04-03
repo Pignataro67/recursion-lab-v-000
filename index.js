@@ -8,7 +8,7 @@ printString(substring);
 }
 
 function reverseString(string){
-  return (string === '')? '' : reverseString(string.substr(1)) + string.charAt(0)
+  return (string === '') ? '' : reverseString(string.substr(1)) + string.charAt(0)
 }
 
 function isPalindrome(string) {
